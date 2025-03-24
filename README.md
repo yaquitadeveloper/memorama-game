@@ -25,29 +25,11 @@ memorama-game/
 │── tailwind.config.js   # Configuración de Tailwind
 │── vite.config.js       # Configuración de Vite
 
+## Instalación
 
-## ⚡ **Requisitos Previos**  
-Asegúrate de tener instalado:  
-- [Node.js](https://nodejs.org/)  
-- [Git](https://git-scm.com/)  
+Clona el repositorio e instala las dependencias:
 
-## 🛠️ **Instalación**  
-Clona el repositorio y entra en la carpeta del proyecto:  
-
-git clone https://github.com/yaquitadeveloper/memorama-game.git  
-cd memorama-game  
-npm ci  # Usa 'npm install' si no tienes package-lock.json  
-
-▶️ Cómo Ejecutar el Proyecto
-
-Para desarrollo:
-npm run dev
-
-Para construir la versión de producción:
-npm run build
-
-Para visualizar la versión compilada:
-npm run preview
-
-
-
+```sh
+git clone https://github.com/yaquitadeveloper/memorama-game.git
+cd memorama-game
+npm ci
