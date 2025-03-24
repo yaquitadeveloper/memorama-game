@@ -1,55 +1,68 @@
+# 🃏 Memorama Game  
 
-# 🃏 Game Memorama 
+Un juego de memoria interactivo y personalizable, desarrollado con **JavaScript, Tailwind CSS y BEM**.  
 
-**Memorama** (also known as **Concentration** or **Memory**) is a classic card-matching game that tests players' memory and concentration skills. The goal is to match pairs of identical cards by flipping them over. The game ends when all pairs have been found.
+## 📌 Características  
+- 🎨 **Diferentes categorías**: Animales, emojis y tecnología.  
+- 🎯 **Niveles de dificultad**: Fácil, Medio y Difícil.  
+- ⏳ **Temporizador** para aumentar la emoción del juego.  
+- 📱 **Diseño responsive** para jugar en cualquier dispositivo.  
 
-## 🎯 Game Flowchart
+## 🚀 **Demo**  
+Puedes probar el juego aquí: [🔗 Enlace a la demo (si tienes una)](https://tudemo.com)  
 
-This diagram illustrates the game's state transitions and logic.
+## 📂 **Estructura del Proyecto**  
+
+```plaintext
+memorama-game/
+│── src/                 # Código fuente
+│   ├── js/              # Lógica del juego
+│   ├── styles/          # Estilos con Tailwind y BEM
+│── public/              # Archivos estáticos
+│── dist/                # Archivos generados para producción
+│── package.json         # Configuración del proyecto
+│── README.md            # Documentación
+│── tailwind.config.js   # Configuración de Tailwind
+│── vite.config.js       # Configuración de Vite
 
 
----
-```markdown
-# Juego "Memorama" con Temática Personalizable
+## ⚡ **Requisitos Previos**  
+Asegúrate de tener instalado:  
+- [Node.js](https://nodejs.org/)  
+- [Git](https://git-scm.com/)  
 
-## 📍 Flujo del Juego
+## 🛠️ **Instalación**  
+Clona el repositorio y entra en la carpeta del proyecto:  
+```sh
+git clone https://github.com/yaquitadeveloper/memorama-game.git  
+cd memorama-game  
+npm ci  # Usa 'npm install' si no tienes package-lock.json  
 
-- **Inicio**
-  - Mostrar menú principal
-    - Seleccionar modo de juego:
-      - 1 Jugador
-      - 2 Jugadores
-      - Contra la PC
+▶️ Cómo Ejecutar el Proyecto
 
-  - Seleccionar temática del juego
+Para desarrollo:
 
-  - Cargar imágenes según la temática seleccionada
+npm run dev
 
-  - Iniciar cronómetro individual para cada jugador
+Para construir la versión de producción:
+npm run build
 
-  - Mostrar tablero de cartas
+Para visualizar la versión compilada:
+npm run preview```
 
-  - Mientras queden cartas por emparejar:
-    - Esperar selección de 2 cartas
-    - Verificar si son iguales
-      - ✅ Sí → Mantener descubiertas y sumar puntos
-      - ❌ No → Ocultar cartas nuevamente
-    - Cambiar de turno si es multijugador
+🤝 Contribuciones
+Si quieres mejorar el proyecto:
 
-  - Detener cronómetro cuando se completen todas las parejas
+Haz un fork del repositorio.
 
-  - Comparar tiempos (si hay más de un jugador)
-    - Determinar al ganador (menor tiempo)
+Crea una nueva rama con tu mejora (git checkout -b feature/nueva-mejora).
 
-  - Mostrar ranking
-    - Guardar tiempo en la tabla de récords
-    - Mostrar mejores tiempos registrados
+Sube los cambios (git commit -m "Agregando nueva funcionalidad").
 
-  - **Opciones finales:**
-    - 🔄 Jugar de nuevo → Reiniciar juego
-    - 🚪 Salir → Volver al menú principal
+Envía un pull request.
 
-- **Fin**
+📜 Licencia
+Este proyecto está bajo la licencia MIT.
 
 
 
