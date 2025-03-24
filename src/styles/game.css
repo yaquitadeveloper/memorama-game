@@ -1,0 +1,118 @@
+@import "tailwindcss";
+
+/* Estilos Personalizados de game.html */
+
+.card {
+    perspective: 1000px;
+    transform-style: preserve-3d;
+    transition: transform 0.5s;
+}
+
+.card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transition: transform 0.5s;
+    transform-style: preserve-3d;
+}
+
+.card.flipped .card-inner {
+    transform: rotateY(180deg);
+}
+
+.card-front,
+.card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0.5rem;
+}
+
+.card-front {
+    background-color: #3b82f6;
+    transform: rotateY(180deg);
+}
+
+.card-back {
+    background-color: #1e40af;
+}
+
+.modal {
+    transition: opacity 0.3s ease-in-out;
+}
+
+@keyframes pulse {
+
+    0%,
+    100% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.05);
+    }
+}
+
+.pulse {
+    animation: pulse 1s infinite;
+}
+
+/* Asegurar que el contenido principal ocupe toda la altura disponible sin desplazamiento */
+html,
+body {
+    height: 100%;
+    margin: 0;
+    overflow: auto;
+}
+
+main {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.game-container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+#gameBoard {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 800px;
+    display: grid;
+    gap: 8px;
+    padding: 10px;
+}
+
+/* Asegurar que las cartas mantengan su proporción */
+.card {
+    width: 100%;
+    aspect-ratio: 1/1;
+}
+
+/* Ajustar tamaños para diferentes dispositivos */
+@media (max-width: 640px) {
+    .game-container {
+        padding: 5px;
+    }
+
+    #gameBoard {
+        gap: 5px;
+        padding: 5px;
+    }
+}
+
+/* Botón de salir */
+.exit-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    z-index: 20;
+}
