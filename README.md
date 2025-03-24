@@ -41,28 +41,13 @@ npm ci  # Usa 'npm install' si no tienes package-lock.json
 ▶️ Cómo Ejecutar el Proyecto
 
 Para desarrollo:
-
 npm run dev
 
 Para construir la versión de producción:
 npm run build
 
 Para visualizar la versión compilada:
-npm run preview```
-
-🤝 Contribuciones
-Si quieres mejorar el proyecto:
-
-Haz un fork del repositorio.
-
-Crea una nueva rama con tu mejora (git checkout -b feature/nueva-mejora).
-
-Sube los cambios (git commit -m "Agregando nueva funcionalidad").
-
-Envía un pull request.
-
-📜 Licencia
-Este proyecto está bajo la licencia MIT.
+npm run preview
 
 
 
