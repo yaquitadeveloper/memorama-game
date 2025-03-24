@@ -33,7 +33,7 @@ Asegúrate de tener instalado:
 
 ## 🛠️ **Instalación**  
 Clona el repositorio y entra en la carpeta del proyecto:  
-```sh
+
 git clone https://github.com/yaquitadeveloper/memorama-game.git  
 cd memorama-game  
 npm ci  # Usa 'npm install' si no tienes package-lock.json  
@@ -48,8 +48,6 @@ npm run build
 
 Para visualizar la versión compilada:
 npm run preview
-
-
 
 
 
