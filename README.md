@@ -26,8 +26,9 @@ memorama-game/
 │── vite.config.js       # Configuración de Vite
 ```
 
-🚀 Instalación
-Clona el repositorio e instala las dependencias:
+##🚀 Instalación
+
+1. Clona el repositorio:
 ```
 git clone https://github.com/yaquitadeveloper/memorama-game.git
 cd memorama-game
