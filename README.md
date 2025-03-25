@@ -26,7 +26,7 @@ memorama-game/
 │── vite.config.js       # Configuración de Vite
 ```
 
-##🚀 Instalación
+## 🚀 **Instalacion**  
 
 1. Clona el repositorio:
 ```
