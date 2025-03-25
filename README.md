@@ -25,6 +25,8 @@ memorama-game/
 │── tailwind.config.js   # Configuración de Tailwind
 │── vite.config.js       # Configuración de Vite
 
+```plaintext
+
 ## Instalación
 
 Clona el repositorio e instala las dependencias:
