@@ -17,10 +17,14 @@ Puedes probar el juego aquí: [🔗 Enlace a la demo (si tienes una)](https://tu
 memorama-game/
 │── src/                 # Código fuente
 │   ├── js/              # Lógica del juego
-│   ├── styles/          # Estilos con Tailwind y BEM
+│       │──modules       # Modulos js.
+│   ├── styles/          # Estilos con Tailwind y
 │── public/              # Archivos estáticos
 │── dist/                # Archivos generados para producción
 │── package.json         # Configuración del proyecto
+│── pages                # Paginas componentes
+   │── game.html         
+│── index.html           # html de entrada
 │── README.md            # Documentación
 │── tailwind.config.js   # Configuración de Tailwind
 │── vite.config.js       # Configuración de Vite
