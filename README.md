@@ -24,14 +24,11 @@ memorama-game/
 │── README.md            # Documentación
 │── tailwind.config.js   # Configuración de Tailwind
 │── vite.config.js       # Configuración de Vite
+```
 
-```plaintext
-
-## Instalación
-
+🚀 Instalación
 Clona el repositorio e instala las dependencias:
-
-```sh
+```
 git clone https://github.com/yaquitadeveloper/memorama-game.git
 cd memorama-game
-npm ci
+```
