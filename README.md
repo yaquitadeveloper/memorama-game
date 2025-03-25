@@ -33,3 +33,31 @@ memorama-game/
 git clone https://github.com/yaquitadeveloper/memorama-game.git
 cd memorama-game
 ```
+
+2. Instala las dependencias:
+```
+npm install
+```
+
+3. Inicia el servidor de desarrollo:
+```
+npm run dev
+```
+
+4. Para visualizar la versión compilada:
+```
+npm run preview
+```
+
+## 🤝 **Contribuciones**
+
+
+Si quieres mejorar el proyecto:
+
+Haz un fork del repositorio.
+
+Crea una nueva rama con tu mejora (git checkout -b feature/nueva-mejora).
+
+Sube los cambios (git commit -m "Agregando nueva funcionalidad").
+
+Envía un pull request.
