@@ -17,7 +17,7 @@ export function setupGameStart() {
         }
 
         // Asegurar que la URL no duplique "/pages/"
-        let gameUrl = `${window.location.origin}/pages/game.html?mode=${gameState.gameMode}&difficulty=${difficulty}&category=${gameState.cardCategory}&player1=${encodeURIComponent(player1)}`;
+        let gameUrl = `${window.location.origin}${import.meta.env.BASE_URL}pages/game.html?mode=${gameState.gameMode}&difficulty=${difficulty}&category=${gameState.cardCategory}&player1=${encodeURIComponent(player1)}`;
 
         if (gameState.gameMode === "twoPlayers") {
             gameUrl += `&player2=${encodeURIComponent(player2)}`;
