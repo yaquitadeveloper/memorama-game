@@ -79,7 +79,7 @@ export function restartGame() {
 
 // Volver al menú principal
 export function goToMenu() {
-  window.location.href = "index.html"
+  window.location.href = `${import.meta.env.BASE_URL}index.html`
 }
 
 // Exportar la función computerPlay para que pueda ser usada en otros módulos

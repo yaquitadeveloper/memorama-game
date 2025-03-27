@@ -6,8 +6,9 @@ import { flipCard } from "./gameBoard.js"
 // Cargar las imágenes de las cartas desde el JSON
 export function loadCardImages() {
   // URL del JSON según la categoría seleccionada
-  const jsonUrl = `/data/${gameState.cardCategory}.json`
-
+  // const jsonUrl = `/data/${gameState.cardCategory}.json`
+  // const jsonUrl = `${import.meta.env.BASE_URL}public/data/${gameState.cardCategory}.json`;
+  const jsonUrl = `${window.location.origin}${import.meta.env.BASE_URL}data/${gameState.cardCategory}.json`;
   fetch(jsonUrl)
     .then((response) => {
       if (!response.ok) {
