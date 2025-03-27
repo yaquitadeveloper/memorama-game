@@ -22,8 +22,8 @@
   "homepage": "https://github.com/Nomada-Grupo-4/Game-Memorana#readme",
   "dependencies": {
     "@tailwindcss/cli": "^4.0.14",
-    "@tailwindcss/vite": "^4.0.16",
-    "tailwindcss": "^4.0.16"
+    "@tailwindcss/vite": "^4.0.17",
+    "tailwindcss": "^4.0.17"
   },
   "devDependencies": {
     "madge": "^8.0.0",
