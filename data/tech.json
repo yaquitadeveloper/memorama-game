@@ -1,0 +1,44 @@
+{
+  "images": [
+    {
+      "id": 1,
+      "url": "https://yaquitadeveloper.github.io/mi-galeria/imagenes/tecnologias/robot1.webp"
+    },
+    {
+      "id": 2,
+      "url": "https://yaquitadeveloper.github.io/mi-galeria/imagenes/tecnologias/robot2.webp"
+    },
+    {
+      "id": 3,
+      "url": "https://yaquitadeveloper.github.io/mi-galeria/imagenes/tecnologias/robot3.webp"
+    },
+    {
+      "id": 4,
+      "url": "https://yaquitadeveloper.github.io/mi-galeria/imagenes/tecnologias/robot4.webp"
+    },
+    {
+      "id": 5,
+      "url": "https://yaquitadeveloper.github.io/mi-galeria/imagenes/tecnologias/robot5.webp"
+    },
+    {
+      "id": 6,
+      "url": "https://yaquitadeveloper.github.io/mi-galeria/imagenes/tecnologias/robot6.webp"
+    },
+    {
+      "id": 7,
+      "url": "https://yaquitadeveloper.github.io/mi-galeria/imagenes/tecnologias/robot7.webp"
+    },
+    {
+      "id": 8,
+      "url": "https://yaquitadeveloper.github.io/mi-galeria/imagenes/tecnologias/robot8.webp"
+    },
+    {
+      "id": 9,
+      "url": "https://yaquitadeveloper.github.io/mi-galeria/imagenes/tecnologias/robot9.webp"
+    },
+    {
+      "id": 10,
+      "url": "https://yaquitadeveloper.github.io/mi-galeria/imagenes/tecnologias/robot10.webp"
+    }
+  ]
+}
