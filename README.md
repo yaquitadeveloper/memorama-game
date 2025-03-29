@@ -2,6 +2,22 @@
 
 Un juego de memoria interactivo y personalizable, desarrollado con **JavaScript, Tailwind CSS y html**.  
 
+
+## 🖼️ Capturas de Pantalla  
+
+### 🃏 Pantalla Principal  
+![Pantalla Principal](https://raw.githubusercontent.com/yaquitadeveloper/memorama-game/main/public/screenshots/pantalla-principal.png)  
+
+### 🎯 Selección de Dificultad  
+![Selección de Dificultad](https://raw.githubusercontent.com/yaquitadeveloper/memorama-game/main/public/screenshots/seleccion-dificultad.png)  
+
+### ⏳ Partida en Curso  
+![Partida en Curso](https://raw.githubusercontent.com/yaquitadeveloper/memorama-game/main/public/screenshots/partida-en-curso.png)  
+
+### 🏆 Pantalla de Victoria  
+![Pantalla de Victoria](https://raw.githubusercontent.com/yaquitadeveloper/memorama-game/main/public/screenshots/pantalla-victoria.png)  
+
+
 ## 📌 Características  
 - 🎨 **Diferentes categorías**: Animales, emojis y tecnología.  
 - 🎯 **Niveles de dificultad**: Fácil, Medio y Difícil.  
