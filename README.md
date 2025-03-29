@@ -9,7 +9,7 @@ Un juego de memoria interactivo y personalizable, desarrollado con **JavaScript,
 - 📱 **Diseño responsive** para jugar en cualquier dispositivo.  
 
 ## 🚀 **Demo**  
-Puedes probar el demo del juego aquí: [(https://yaquitadeveloper.github.io/memorama-game/)]  
+Puedes probarlo aquí: [(https://yaquitadeveloper.github.io/memorama-game/)]  
 
 ## 📖 Documentación Técnica  
 
