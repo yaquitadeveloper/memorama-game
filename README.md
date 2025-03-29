@@ -1,6 +1,6 @@
 # 🃏 Memorama Game  
 
-Un juego de memoria interactivo y personalizable, desarrollado con **JavaScript, Tailwind CSS y BEM**.  
+Un juego de memoria interactivo y personalizable, desarrollado con **JavaScript, Tailwind CSS y html**.  
 
 ## 📌 Características  
 - 🎨 **Diferentes categorías**: Animales, emojis y tecnología.  
@@ -9,7 +9,13 @@ Un juego de memoria interactivo y personalizable, desarrollado con **JavaScript,
 - 📱 **Diseño responsive** para jugar en cualquier dispositivo.  
 
 ## 🚀 **Demo**  
-Puedes probar el juego aquí: [🔗 Enlace a la demo (si tienes una)](https://tudemo.com)  
+Puedes probar el juego aquí: [(https://yaquitadeveloper.github.io/memorama-game/)]  
+
+## 📖 Documentación Técnica  
+
+- 📄 [Documentación de los módulos de `game.js`](https://yaquitadeveloper.github.io/documentacion-game/)  
+- 📄 [Documentación del archivo principal `main.js`](https://yaquitadeveloper.github.io/documentacion-main/)  
+
 
 ## 📂 **Estructura del Proyecto**  
 
@@ -43,25 +49,38 @@ cd memorama-game
 npm install
 ```
 
-3. Inicia el servidor de desarrollo:
+3. Modo Desarrollo (servidor local con recarga en vivo)
 ```
 npm run dev
 ```
 
-4. Para visualizar la versión compilada:
+4. Compilar para Producción
+```
+npm run build
+```
+5. Vista previa del build (simulación del entorno de producción)
 ```
 npm run preview
 ```
+6. Despliegue
+Sube el contenido de dist/ a tu hosting o usa GitHub Pages.
 
 ## 🤝 **Contribuciones**
 
 
 Si quieres mejorar el proyecto:
 
-Haz un fork del repositorio.
+1. Haz un fork del repositorio.
 
-Crea una nueva rama con tu mejora (git checkout -b feature/nueva-mejora).
+2. Crea una nueva rama con tu mejora
+```
+git checkout -b feature/nueva-mejora
+```
+   
+3. Realiza los cambios y súbelos:
+```
+git commit -m "Agregando nueva funcionalidad"
+```
 
-Sube los cambios (git commit -m "Agregando nueva funcionalidad").
 
-Envía un pull request.
+4. Envía un pull request.
