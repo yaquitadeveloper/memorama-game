@@ -6,16 +6,17 @@ Un juego de memoria interactivo y personalizable, desarrollado con **JavaScript,
 ## 🖼️ Capturas de Pantalla  
 
 ### 🃏 Pantalla Principal  
-![Pantalla Principal](https://raw.githubusercontent.com/yaquitadeveloper/memorama-game/main/public/screenshots/pantalla-principal.png)  
+<img src="https://raw.githubusercontent.com/yaquitadeveloper/memorama-game/main/public/screenshots/pantalla-principal.png" alt="Pantalla Principal" width="600">  
 
 ### 🎯 Selección de Dificultad  
-![Selección de Dificultad](https://raw.githubusercontent.com/yaquitadeveloper/memorama-game/main/public/screenshots/seleccion-dificultad.png)  
+<img src="https://raw.githubusercontent.com/yaquitadeveloper/memorama-game/main/public/screenshots/seleccion-dificultad.png" alt="Selección de Dificultad" width="600">  
 
 ### ⏳ Partida en Curso  
-![Partida en Curso](https://raw.githubusercontent.com/yaquitadeveloper/memorama-game/main/public/screenshots/partida-en-curso.png)  
+<img src="https://raw.githubusercontent.com/yaquitadeveloper/memorama-game/main/public/screenshots/partida-en-curso.png" alt="Partida en Curso" width="600">  
 
 ### 🏆 Pantalla de Victoria  
-![Pantalla de Victoria](https://raw.githubusercontent.com/yaquitadeveloper/memorama-game/main/public/screenshots/pantalla-victoria.png)  
+<img src="https://raw.githubusercontent.com/yaquitadeveloper/memorama-game/main/public/screenshots/pantalla-victoria.png" alt="Pantalla de Victoria" width="600">  
+
 
 
 ## 📌 Características  
